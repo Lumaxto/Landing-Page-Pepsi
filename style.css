@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/*  font-family: 'Poppins', sans-serif; */
+
+/*   Generales  */
+
+*{
+    padding:0;
+    margin:0;
+    font-family:'Poppins', sans-serif; 
+    box-sizing:border-box;
+}
+/*   SECTION    */
+
+section{
+    position:relative;
+    width:100%;
+    min-height: 100vh;
+    padding: 100px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background:#0062be;
+    transition:0.5s;
+}
+
+.container{
+    position:absolute;
+    top:0;
+    left:0;
+    padding:20px 100px;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    position:relative;
+    max-width: 80px;
+}
+
+.menu{
+    position:relative;
+    display:flex;
+
+}
+
+.item-menu{
+    list-style-type: none;
+}
+
+.item-link{
+    margin:50px;
+    text-decoration:none ;
+    text-transform: capitalize;
+    color:#fff;
+    font-weight: 500;
+}
+
+/*  CONTENT */
+
+.content{
+    position:relative;
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.textBox{
+    position:relative;
+    max-width: 600px;
+}
+
+h2{
+    color:#fff;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    font-size: 4em;;
+    font-weight: 900;
+}
+
+span{
+    font-size:2em;
+}
+
+.texto{
+    color:#fff;
+}
+
+.mas{
+    display:inline-block;
+    color:#000;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 900;
+    margin:40px;
+    padding:8px 20px;
+    background-color: #fff;
+    border-radius:40px;
+}
+
+.imgBox{
+    width:600px;
+    display:flex;
+    padding-right: 50px;
+    margin-top:50px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.pepsi-azul{
+    max-width: 300px;
+}
+
+
+
+/*  LATAS   */
+
+
+.latas{
+    position:absolute;
+    left:50%;
+    bottom:20px;
+    transform: translate(-50%);
+    display:flex;
+}
+
+.lata{
+    list-style-type: none;
+    display:inline-block;
+    margin: 0 20px;
+    cursor:pointer;
+    transition:0.5s;
+}
+
+.lata:hover{
+    transform:translateY(-20px);
+
+}
+.pepsi{
+    max-width:50px;
+}
+
+
+/*  REDES SOCIALES  */
+
+
+.redes-sociales{
+   position:absolute;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   top:50%;
+   right:100px;
+   transform: translateY(-50%);
+}
+
+.redes{
+    list-style-type: none;
+}
+
+.redes i{
+    display:inline-block;
+    height: 25px;
+    transform:scale(1.5);
+    margin: 5px 0 ;
+    color:#fff;
+}
+

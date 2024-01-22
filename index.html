@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pepsi-Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./imagenes/logo.png">
+</head>
+<body>
+    <section>
+        <header class="container">
+            
+            <a href="#" class="logo">
+
+                <img src="./imagenes/logo.png" alt="logo-pepsi" class="img-logo">
+
+            </a>
+
+            
+
+            <ul class="menu">
+
+                <li class="item-menu"><a href="#" class="item-link">home</a></li>
+                <li class="item-menu"><a href="#" class="item-link">products</a></li>
+                <li class="item-menu"><a href="#" class="item-link">what's new</a></li>
+                <li class="item-menu"><a href="#" class="item-link">newsletter</a></li>
+                <li class="item-menu"><a href="#" class="item-link">contact</a></li>
+
+            </ul>
+    </header>
+
+    <div class="content">
+        <div class="textBox">
+            
+            <h2 class="titulo">that's what <br> <span>i like</span></h2>
+            
+            <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, exercitationem ab nam numquam ipsam amet quas minima optio dicta labore iste, corrupti minus facere explicabo accusamus ipsa suscipit doloremque eos.</p>
+
+            <a href="#" class="mas">view all products</a>
+
+        </div>
+
+        <div class="imgBox">
+
+            <img src="./imagenes/pepsi001.png" alt="pepsi-azul" class="pepsi-azul">
+
+        </div>
+    </div>
+
+    <ul class="latas">
+        <li class="lata">
+
+            <img src="./imagenes/pepsi001.png" alt="pepsi-azul" class="pepsi" onclick="ImgSlider('./imagenes/pepsi001.png') , BgColor('#0062be')">
+
+        </li>
+
+        <li class="lata">
+
+            <img src="./imagenes/pepsi002.png" alt="pepsi-gris" class="pepsi" onclick="ImgSlider('./imagenes/pepsi002.png') , BgColor('#e60c2c')">
+
+        </li>
+
+        <li class="lata">
+
+            <img src="./imagenes/pepsi003.png" alt="negra" class="pepsi" onclick="ImgSlider('./imagenes/pepsi003.png') , BgColor('#1e1e1e')"> 
+
+        </li>
+    </ul>
+
+    <ul class="redes-sociales">
+        <li class="redes"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+        <li class="redes"><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+        <li class="redes"><a href="#"><i class="fa-brands fa-square-instagram"></i></a></li>
+    </ul>
+    </section>
+  
+    <script src="https://kit.fontawesome.com/7245833e8d.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
